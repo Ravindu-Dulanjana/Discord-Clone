@@ -1,0 +1,23 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.login button {
+    width: 300px;
+    background-color: #738abd;
+    color: white;
+    font-weight: 800;
+}
+
+.MuiButton-root:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: #738abd;
+}
+
+.login div img {
+    object-fit: contain;
+    height: 150px;
+}
